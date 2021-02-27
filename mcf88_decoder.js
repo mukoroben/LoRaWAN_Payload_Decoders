@@ -38,27 +38,7 @@ function decodeUplink(input) {
         };
     }
 
-/*
- * VERSION: 1.0.0
- * 
- * INPUT:
- * payload              -> MCF-LW12KIO / MCF-LW12PLG / MCF-LW12MET / MCF-LW13IO / MCF-LW13MIO payload
- * 
- * OUTPUT:
- * date                 -> date of measurement. See @parseDate
- * inputStatus8_1       -> first input byte status | 0 off - 1 on
- * inputStatus9_16      -> second input byte status | 0 off - 1 on
- * inputStatus17_24     -> third input byte status | 0 off - 1 on
- * inputStatus25_32     -> fourth input byte status | 0 off - 1 on
- * outputStatus8_1      -> first output byte status | 0 off - 1 on
- * outputStatus9_16     -> second output byte status | 0 off - 1 on
- * outputStatus17_24    -> third output byte status | 0 off - 1 on
- * outputStatus25_32    -> fourth output byte status | 0 off - 1 on
- * inputTrigger8_1      -> first input byte event | 0 not triggered - 1 triggered
- * inputTrigger9_16     -> second input byte event | 0 not triggered - 1 triggered
- * inputTrigger17_24    -> third input byte event | 0 not triggered - 1 triggered
- * inputTrigger25_32    -> fourth input byte event | 0 not triggered - 1 triggered
- */
+
 
     function parseIO(payload) {
         var date = {
