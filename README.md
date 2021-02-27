@@ -1,1 +1,1 @@
-# MCF88_LW12MET_LW12PLG_Decoders
+# LoRaWAN-Payload-Decoders
